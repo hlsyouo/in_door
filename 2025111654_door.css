@@ -324,27 +324,24 @@ ul{
  .one{
         display: flex;
         flex-wrap: wrap;  /* 👈 줄바꿈 허용 */
-        justify-content: center;
-        align-items: flex-start;
+
         width: 100vw;
         height: auto;  /* 👈 자동 높이 */
-        padding: 20px 15px;
+        padding: 15px 10px;
         box-sizing: border-box;
-        gap: 15px;  /* 👈 간격 조정 */
+        gap: 8px;  /* 👈 간격 조정 */
     }
     
     /* 첫 줄: 3개 (분홍, 빨강, 하늘) */
     .a, .b, .c {
-        width: calc(33.33% - 10px);  /* 3등분 */
         height: 50vh;  /* 높이 조정 */
-        flex-shrink: 0;
+        display: flex;
     }
     
     /* 둘째 줄: 2개 (파랑, 초록) */
     .d, .e {
-        width: calc(50% - 10px);  /* 2등분 */
         height: 50vh;  /* 높이 조정 */
-        flex-shrink: 0;
+        display: flex;
     }
     
     .a a, .b a, .c a, .d a, .e a {
