@@ -161,7 +161,6 @@ ul {
 .contentslight img,
 .contentsspeaker img,
 .stuwall img,
-.stuchair img,
 .sciscale img,
 .sciliquid img,
 .sciwhat img,
@@ -169,6 +168,15 @@ ul {
 .multishoes img {
 	width: 100%;
 	height: 100%;
+	object-fit: contain;
+	display: block;
+}
+
+.stuchair img{
+	width: 80%;
+	height: 80%;
+	padding-top: 100px;
+	padding-left: 100px;
 	object-fit: contain;
 	display: block;
 }
@@ -411,7 +419,6 @@ ul {
 	.contentslight img,
 	.contentsspeaker img,
 	.stuwall img,
-	.stuchair img,
 	.sciscale img,
 	.sciliquid img,
 	.sciwhat img,
@@ -420,6 +427,14 @@ ul {
 		width: 100%;
 		height: auto;
 		max-height: 40vh;
+		object-fit: contain;
+	}
+
+	.stuchair img{
+		width: 100%;
+		height: auto;
+		max-height: 40vh;
+		padding-left: 10px;
 		object-fit: contain;
 	}
 
