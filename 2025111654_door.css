@@ -417,7 +417,8 @@ ul {
 		width: 100%;
 		height: auto;
 		max-height: 40vh;
-		padding-left: 10px;
+		padding-left: 0px;
+		padding-bottom: 50px;
 		object-fit: contain;
 	}
 
