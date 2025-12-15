@@ -1,13 +1,14 @@
-*{
+* {
 	word-break: keep-all;
 }
 
-body{
+body {
 	background-color: black;
 	margin: 0;
 }
 
-h1, p{
+h1,
+p {
 	color: white;
 	margin: 15px;
 	position: relative;
@@ -15,15 +16,11 @@ h1, p{
 	list-style: none;
 }
 
-p{
+p {
 	margin-left: 0;
 }
 
-.pp{
-
-}
-
-h2{
+h2 {
 	color: white;
 	margin: 15px;
 	font-size: 17px;
@@ -34,41 +31,41 @@ h2{
 	padding: 3px;
 }
 
-h2:hover{
+h2:hover {
 	background-color: white;
 	color: black;
 }
 
-.img-m{
+.img-m {
 	display: none;
 }
 
-.footer{
+.footer {
 	position: fixed;
 	bottom: 0;
 	left: 0;
-    margin: 15px;
+	margin: 15px;
 }
 
-.first{
+.first {
+	position: fixed;
 	bottom: 100px;
 	left: 0;
-	position: fixed;
 }
 
-.open{
+.open {
+	position: fixed;
 	bottom: 65px;
 	left: 0;
-	position: fixed;
 }
 
-.gapbt{
+.gapbt {
+	position: fixed;
 	bottom: 30px;
 	left: 0;
-	position: fixed;
 }
 
-.gap{
+.gap {
 	font-size: 28px;
 	padding: 6px;
 	display: inline-block;
@@ -77,22 +74,23 @@ h2:hover{
 	position: fixed;
 }
 
-.last_title{
+.last_title {
 	font-size: 24px;
 }
 
-.last{
+.last {
 	font-size: 20px;
+	margin-top: 17px;
 }
 
-ul{
+ul {
 	color: white;
 	font-size: 18px;
-  	width: 400px;
-  	padding-top: 50px;
+	width: 400px;
+	padding-top: 50px;
 }
 
-.writing{
+.writing {
 	position: fixed;
 	top: 0;
 	z-index: 1;
@@ -101,85 +99,114 @@ ul{
 	display: flex;
 }
 
-.one{
+.one {
 	display: flex;
 	flex-direction: row;
 	width: 100vw;
 	height: 80vh;
 	overflow: hidden;
-	gap: 10px; 
-	padding: 0 15px; 
+	gap: 10px;
+	padding: 0 15px;
 	box-sizing: border-box;
 }
 
-.a, .b, .c, .d, .e{
-	flex-grow: 1; 
+.a,
+.b,
+.c,
+.d,
+.e {
+	flex-grow: 1;
 	height: 100%;
 	display: flex;
 }
 
-.a img, .b img, .c img, .d img, .e img{
+.a img,
+.b img,
+.c img,
+.d img,
+.e img {
 	width: 100%;
 	height: 100%;
 	object-fit: contain;
 	display: block;
 }
 
-.garagegap{
+.garagegap {
 	position: absolute;
 	right: 0;
 	top: 0;
 	height: 100vh;
 }
 
-.garagegap img{
+.garagegap img {
 	height: 100vh;
 	width: auto;
 	display: block;
 }
 
-.garageglove, .garagepaper, .garagerock, .garagecart{
+.garageglove,
+.garagepaper,
+.garagerock,
+.garagecart {
 	display: inline-block;
 	width: calc(25% - 4px);
 	height: 100vh;
 	vertical-align: top;
 }
-.garageglove img, .garagepaper img, .garagerock img, .garagecart img, .contentslight img, .contentsspeaker img, .stuwall img, .stuchair img, .sciscale img, .sciliquid img, .sciwhat img, .multipillow img, .multishoes img{
+
+.garageglove img,
+.garagepaper img,
+.garagerock img,
+.garagecart img,
+.contentslight img,
+.contentsspeaker img,
+.stuwall img,
+.stuchair img,
+.sciscale img,
+.sciliquid img,
+.sciwhat img,
+.multipillow img,
+.multishoes img {
 	width: 100%;
 	height: 100%;
 	object-fit: contain;
 	display: block;
 }
 
-.stuwall, .stuchair{
+.stuwall,
+.stuchair {
 	display: inline-block;
 	width: calc(50% - 4px);
 	height: 100vh;
 	vertical-align: top;
 }
 
-.sciwhat, .sciscale, .sciliquid{
+.sciwhat,
+.sciscale,
+.sciliquid {
 	display: inline-block;
 	width: calc(33.3% - 4px);
 	height: 100vh;
 	vertical-align: top;
 }
 
-.multipillow, .multishoes{
+.multipillow,
+.multishoes {
 	display: inline-block;
 	width: calc(50% - 4px);
 	height: 100vh;
 	vertical-align: top;
 }
 
-.contentslight, .contentsspeaker{
+.contentslight,
+.contentsspeaker {
 	display: inline-block;
 	width: calc(50% - 4px);
 	height: 100vh;
 	vertical-align: top;
 }
 
-.img-pc{
+.img-pc {
 	display: block;
 	position: relative;
 	width: 100vw;
@@ -187,7 +214,7 @@ ul{
 	overflow: hidden;
 }
 
-.img-pc img{
+.img-pc img {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -197,193 +224,219 @@ ul{
 	display: block;
 }
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 900px) {
 
-.wrap{
-	padding-top: 70px;
-}
+	.wrap {
+		padding-top: 70px;
+	}
 
-.img-pc{
-	display: none;
-}
+	.img-pc {
+		display: none;
+	}
 
-.img-m{
-	display: block;
-	position: relative;
-	width: 100vw;
-	height: 100vh;
-	overflow: hidden;
-}
+	.img-m {
+		display: block;
+		position: relative;
+		width: 100vw;
+		height: 100vh;
+		overflow: hidden;
+	}
 
-.img-m img{
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-	display: block;
-}
+	.img-m img {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		display: block;
+	}
 
-body{
-    background-color: black;
-	margin: 0;
-}
+	body {
+		background-color: black;
+		margin: 0;
+	}
 
-h1, p{
-	color: white;
-	margin: 15px;
-	position: relative;
-	z-index: 1;
-	list-style: none;
-}
+	h1,
+	p {
+		color: white;
+		margin: 15px;
+		position: relative;
+		z-index: 1;
+		list-style: none;
+	}
 
-.pp{
-	margin: 5px;
-	width: 200px;
-}
+	.pp {
+		margin: 5px;
+		width: 250px;
+	}
 
-h2{
-	color: white;
-	margin: 15px;
-	font-size: 17px;
-	position: fixed;
-	z-index: 1;
-	border: 1px solid white;
-	bottom: 0;
-	padding: 3px;
-}
+	h2 {
+		color: white;
+		margin: 15px;
+		font-size: 17px;
+		position: fixed;
+		z-index: 1;
+		border: 1px solid white;
+		bottom: 0;
+		padding: 3px;
+	}
 
-h2:hover{
-	background-color: white;
-	color: black;
-}
+	h2:hover {
+		background-color: white;
+		color: black;
+	}
 
-ul{
-	color: white;
-	font-size: 15px;
-	width: 400px;
-	margin-top: 20px; /* ← 여기서 내려감 */
-}
+	ul {
+		color: white;
+		font-size: 15px;
+		width: 400px;
+		margin-top: 20px;
+	}
 
-.footer{
-	position: fixed;
-	bottom: 0;
-	left: 0;
-}
+	.footer {
+		position: fixed;
+		bottom: 0;
+		left: 0;
+	}
 
-.first{
-	bottom: 100px;
-	left: 0;
-	position: fixed;
-}
+	.first {
+		position: fixed;
+		bottom: 100px;
+		left: 0;
+	}
 
-.open{
-	bottom: 65px;
-	left: 0;
-	position: fixed;
-}
+	.open {
+		position: fixed;
+		bottom: 65px;
+		left: 0;
+	}
 
-.gapbt{
-	bottom: 30px;
-	left: 0;
-	position: fixed;
-}
+	.gapbt {
+		position: fixed;
+		bottom: 30px;
+		left: 0;
+	}
 
-.gap{
-	font-size: 20px;
-	padding: 6px;
-	display: inline-block;
-	color: black;
-	background-color: white;
-	position: fixed;
-}
+	.gap {
+		font-size: 20px;
+		padding: 6px;
+		display: inline-block;
+		color: black;
+		background-color: white;
+		position: fixed;
+	}
 
-.last_title{
-	font-size: 20px;
-	margin-bottom: 1px;
-}
+	.last_title {
+		font-size: 20px;
+		margin-bottom: 1px;
+	}
 
-.last{
-	font-size: 15px;
-	margin-top: 8px;
-}
+	.last {
+		font-size: 15px;
+		margin-top: 8px;
+	}
 
-.writing{
-	position: fixed;
-	top: 0;
-	z-index: 1;
-	background-color: rgba(0, 0, 0, 0.5);
-	max-width: 60%;
-	max-height: 20%;
-	display: block;
-	justify-content: center;
-	align-items: center;
-}
+	.writing {
+		position: fixed;
+		top: 0;
+		z-index: 1;
+		display: block;
+		justify-content: center;
+		align-items: center;
+	}
 
- .one{
-        display: flex;
-        flex-wrap: wrap;  /* 👈 줄바꿈 허용 */
+	.one {
+		display: flex;
+		flex-wrap: wrap;
+		width: 100vw;
+		height: auto;
+		padding: 15px 10px;
+		box-sizing: border-box;
+		gap: 8px;
+	}
 
-        width: 100vw;
-        height: auto;  /* 👈 자동 높이 */
-        padding: 15px 10px;
-        box-sizing: border-box;
-        gap: 8px;  /* 👈 간격 조정 */
-    }
-    
-    /* 첫 줄: 3개 (분홍, 빨강, 하늘) */
-    .a, .b, .c {
-        height: 50vh;  /* 높이 조정 */
-        display: flex;
-    }
-    
-    /* 둘째 줄: 2개 (파랑, 초록) */
-    .d, .e {
-        height: 50vh;  /* 높이 조정 */
-        display: flex;
-    }
-    
-    .a a, .b a, .c a, .d a, .e a {
-        width: 100%;
-        height: 100%;
-        display: block;
-    }
-    
-    .a img, .b img, .c img, .d img, .e img{
-        width: 100%;
-        height: 100%;
-        object-fit: cover;  /* 👈 또는 contain */
-        display: block;
-    }
-    
-.garagegap{
-	display: block;
-	position: relative;
-	width: 100vw;
-	height: 100vh;
-	overflow: hidden;
-}
+	.a,
+	.b,
+	.c,
+	.d,
+	.e {
+		height: 50vh;
+		display: flex;
+	}
 
-.garagegap img{
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-	display: block;
-}
+	.a a,
+	.b a,
+	.c a,
+	.d a,
+	.e a {
+		width: 100%;
+		height: 100%;
+		display: block;
+	}
 
-.garageglove img, .garagepaper img, .garagerock img, .garagecart img, .contentslight img, .contentsspeaker img, .stuwall img, .stuchair img, .sciscale img, .sciliquid img, .sciwhat img, .multipillow img, .multishoes img{
-	width: 100%;
-	height: auto;
-	max-height: 40vh;   /* ← 여기서 크기 조절 */
-	object-fit: contain;
-}
+	.a img,
+	.b img,
+	.c img,
+	.d img,
+	.e img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		display: block;
+	}
 
-.contentslight, .contentsspeaker, .multipillow, .multishoes, .garageglove, .garagepaper, .garagerock, .garagecart, .sciwhat, .sciscale, .sciliquid, .stuwall, .stuchair{
-	width: 100%;      /* 전체 폭 */
-	height: auto;    /* 화면 하나씩 */
-}
+	.garagegap {
+		display: block;
+		position: relative;
+		width: 100vw;
+		height: 100vh;
+		overflow: hidden;
+	}
+
+	.garagegap img {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		display: block;
+	}
+
+	.garageglove img,
+	.garagepaper img,
+	.garagerock img,
+	.garagecart img,
+	.contentslight img,
+	.contentsspeaker img,
+	.stuwall img,
+	.stuchair img,
+	.sciscale img,
+	.sciliquid img,
+	.sciwhat img,
+	.multipillow img,
+	.multishoes img {
+		width: 100%;
+		height: auto;
+		max-height: 40vh;
+		object-fit: contain;
+	}
+
+	.contentslight,
+	.contentsspeaker,
+	.multipillow,
+	.multishoes,
+	.garageglove,
+	.garagepaper,
+	.garagerock,
+	.garagecart,
+	.sciwhat,
+	.sciscale,
+	.sciliquid,
+	.stuwall,
+	.stuchair {
+		width: 100%;
+		height: auto;
+	}
 }
