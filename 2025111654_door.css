@@ -20,7 +20,7 @@ p {
 	margin-left: 0;
 }
 
-h2 {
+h2 {  
 	color: white;
 	margin: 15px;
 	font-size: 17px;
@@ -358,7 +358,18 @@ ul {
 		display: flex;
 		margin-left: 15px;
 		flex-direction: column;
-		width: 100vw;
+		width: 50vw;
+		height: auto;
+		overflow: visible;
+		gap: 10px;
+		padding: 0;
+		box-sizing: border-box;
+	}
+
+	.d {
+		display: flex;
+		flex-direction: column;
+		width: 90vw;
 		height: auto;
 		overflow: visible;
 		gap: 10px;
