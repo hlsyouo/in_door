@@ -1,0 +1,392 @@
+*{
+	word-break: keep-all;
+}
+
+body{
+	background-color: black;
+	margin: 0;
+}
+
+h1, p{
+	color: white;
+	margin: 15px;
+	position: relative;
+	z-index: 1;
+	list-style: none;
+}
+
+p{
+	margin-left: 0;
+}
+
+.pp{
+
+}
+
+h2{
+	color: white;
+	margin: 15px;
+	font-size: 17px;
+	position: fixed;
+	z-index: 1;
+	border: 1px solid white;
+	bottom: 0;
+	padding: 3px;
+}
+
+h2:hover{
+	background-color: white;
+	color: black;
+}
+
+.img-m{
+	display: none;
+}
+
+.footer{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+    margin: 15px;
+}
+
+.first{
+	bottom: 100px;
+	left: 0;
+	position: fixed;
+}
+
+.open{
+	bottom: 65px;
+	left: 0;
+	position: fixed;
+}
+
+.gapbt{
+	bottom: 30px;
+	left: 0;
+	position: fixed;
+}
+
+.gap{
+	font-size: 28px;
+	padding: 6px;
+	display: inline-block;
+	color: black;
+	background-color: white;
+	position: fixed;
+}
+
+.last_title{
+	font-size: 24px;
+}
+
+.last{
+	font-size: 20px;
+}
+
+ul{
+	color: white;
+	font-size: 18px;
+  	width: 400px;
+  	padding-top: 50px;
+}
+
+.writing{
+	position: fixed;
+	top: 0;
+	z-index: 1;
+	background-color: rgba(0, 0, 0, 0.5);
+	max-width: 100%;
+	display: flex;
+}
+
+.one{
+	display: flex;
+	flex-direction: row;
+	width: 100vw;
+	height: 80vh;
+	overflow: hidden;
+	gap: 10px; 
+	padding: 0 15px; 
+	box-sizing: border-box;
+}
+
+.a, .b, .c, .d, .e{
+	flex-grow: 1; 
+	height: 100%;
+	display: flex;
+}
+
+.a img, .b img, .c img, .d img, .e img{
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+	display: block;
+}
+
+.garagegap{
+	position: absolute;
+	right: 0;
+	top: 0;
+	height: 100vh;
+}
+
+.garagegap img{
+	height: 100vh;
+	width: auto;
+	display: block;
+}
+
+.garageglove, .garagepaper, .garagerock, .garagecart{
+	display: inline-block;
+	width: calc(25% - 4px);
+	height: 100vh;
+	vertical-align: top;
+}
+.garageglove img, .garagepaper img, .garagerock img, .garagecart img, .contentslight img, .contentsspeaker img, .stuwall img, .stuchair img, .sciscale img, .sciliquid img, .sciwhat img, .multipillow img, .multishoes img{
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+	display: block;
+}
+
+.stuwall, .stuchair{
+	display: inline-block;
+	width: calc(50% - 4px);
+	height: 100vh;
+	vertical-align: top;
+}
+
+.sciwhat, .sciscale, .sciliquid{
+	display: inline-block;
+	width: calc(33.3% - 4px);
+	height: 100vh;
+	vertical-align: top;
+}
+
+.multipillow, .multishoes{
+	display: inline-block;
+	width: calc(50% - 4px);
+	height: 100vh;
+	vertical-align: top;
+}
+
+.contentslight, .contentsspeaker{
+	display: inline-block;
+	width: calc(50% - 4px);
+	height: 100vh;
+	vertical-align: top;
+}
+
+.img-pc{
+	display: block;
+	position: relative;
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+}
+
+.img-pc img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	display: block;
+}
+
+@media screen and (max-width: 900px){
+
+.wrap{
+	padding-top: 70px;
+}
+
+.img-pc{
+	display: none;
+}
+
+.img-m{
+	display: block;
+	position: relative;
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+}
+
+.img-m img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	display: block;
+}
+
+body{
+    background-color: black;
+	margin: 0;
+}
+
+h1, p{
+	color: white;
+	margin: 15px;
+	position: relative;
+	z-index: 1;
+	list-style: none;
+}
+
+.pp{
+	margin: 5px;
+	width: 250px;
+}
+
+h2{
+	color: white;
+	margin: 15px;
+	font-size: 17px;
+	position: fixed;
+	z-index: 1;
+	border: 1px solid white;
+	bottom: 0;
+	padding: 3px;
+}
+
+h2:hover{
+	background-color: white;
+	color: black;
+}
+
+ul{
+	color: white;
+	font-size: 15px;
+	width: 400px;
+	margin-top: 20px; /* ← 여기서 내려감 */
+}
+
+.footer{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+
+.first{
+	bottom: 100px;
+	left: 0;
+	position: fixed;
+}
+
+.open{
+	bottom: 65px;
+	left: 0;
+	position: fixed;
+}
+
+.gapbt{
+	bottom: 30px;
+	left: 0;
+	position: fixed;
+}
+
+.gap{
+	font-size: 20px;
+	padding: 6px;
+	display: inline-block;
+	color: black;
+	background-color: white;
+	position: fixed;
+}
+
+.last_title{
+	font-size: 20px;
+	margin-bottom: 1px;
+}
+
+.last{
+	font-size: 15px;
+	margin-top: 8px;
+}
+
+.writing{
+	position: fixed;
+	top: 0;
+	z-index: 1;
+	background-color: rgba(0, 0, 0, 0.5);
+	max-width: 60%;
+	max-height: 20%;
+	display: block;
+	justify-content: center;
+	align-items: center;
+}
+
+ .one{
+        display: flex;
+        flex-wrap: wrap;  /* 👈 줄바꿈 허용 */
+        justify-content: center;
+        align-items: flex-start;
+        width: 100vw;
+        height: auto;  /* 👈 자동 높이 */
+        padding: 20px 15px;
+        box-sizing: border-box;
+        gap: 15px;  /* 👈 간격 조정 */
+    }
+    
+    /* 첫 줄: 3개 (분홍, 빨강, 하늘) */
+    .a, .b, .c {
+        width: calc(33.33% - 10px);  /* 3등분 */
+        height: 50vh;  /* 높이 조정 */
+        flex-shrink: 0;
+    }
+    
+    /* 둘째 줄: 2개 (파랑, 초록) */
+    .d, .e {
+        width: calc(50% - 10px);  /* 2등분 */
+        height: 50vh;  /* 높이 조정 */
+        flex-shrink: 0;
+    }
+    
+    .a a, .b a, .c a, .d a, .e a {
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+    
+    .a img, .b img, .c img, .d img, .e img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;  /* 👈 또는 contain */
+        display: block;
+    }
+    
+.garagegap{
+	display: block;
+	position: relative;
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+}
+
+.garagegap img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	display: block;
+}
+
+.garageglove img, .garagepaper img, .garagerock img, .garagecart img, .contentslight img, .contentsspeaker img, .stuwall img, .stuchair img, .sciscale img, .sciliquid img, .sciwhat img, .multipillow img, .multishoes img{
+	width: 100%;
+	height: auto;
+	max-height: 40vh;   /* ← 여기서 크기 조절 */
+	object-fit: contain;
+}
+
+.contentslight, .contentsspeaker, .multipillow, .multishoes, .garageglove, .garagepaper, .garagerock, .garagecart, .sciwhat, .sciscale, .sciliquid, .stuwall, .stuchair{
+	width: 100%;      /* 전체 폭 */
+	height: auto;    /* 화면 하나씩 */
+}
+}
