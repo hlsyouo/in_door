@@ -407,6 +407,7 @@ ul {
 		height: auto;
 		max-height: 40vh;
 		object-fit: contain;
+		padding-bottom: 50px;
 	}
 
 	.stuchair img{
