@@ -391,7 +391,6 @@ ul {
 		display: block;
 	}
 
-	.garageglove img,
 	.garagepaper img,
 	.garagerock img,
 	.garagecart img,
@@ -408,6 +407,14 @@ ul {
 		max-height: 40vh;
 		object-fit: contain;
 		padding-bottom: 50px;
+	}
+
+	.garageglove img{
+		width: 100%;
+		height: auto;
+		max-height: 40vh;
+		object-fit: contain;
+		padding-bottom: 10px;
 	}
 
 	.stuchair img{
